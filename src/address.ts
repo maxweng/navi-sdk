@@ -441,7 +441,7 @@ export const PriceFeedConfig: { [key: string]: IPriceFeed } = {
         maximumEffectivePrice: 1000000000, // 1 = 1 * 1e9 = 1000000000
         minimumEffectivePrice: 1000000, // 0.001 = 0.001 * 1e9 = 1000000
         historicalPriceTTL: 5 * 60 * 1000, // 5min(millisecond)
-        coinType: '0x6864a6f921804860930db6ddbe2e16acdf8504495ea7481637a1c8b9a8fe54b::cetus::CETUS',
+        coinType: '0x06864a6f921804860930db6ddbe2e16acdf8504495ea7481637a1c8b9a8fe54b::cetus::CETUS',
         feedId: '0x5ac98fc1e6723af2a6d9a68a5d771654a6043f9c4d2b836b2d5fb4832a3be4f2', // TODO: value
         supraPairId: 93, // CETUS_USDT -> 93, https://supra.com/docs/data-feeds/data-feeds-index/#:~:text=Supra%20Premium-,CETUS_USDT,-93
         pythPriceFeedId: '0xe5b274b2611143df055d6e7cd8d93fe1961716bcd4dca1cad87a83bc1e78c1ef', // **fixed value: Crypto.CETUS/USD -> https://pyth.network/developers/price-feed-ids
